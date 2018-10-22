@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "react/forbid-prop-types": [0],
+    "no-console": [0],
+    "class-methods-use-this": [0],
+    "comma-spacing": [1, { "before": false, "after": true }],
+    "space-infix-ops": [1],
+    "key-spacing": [1, { "beforeColon": false, "afterColon": true }],
+    "space-before-blocks": 1,
+    "keyword-spacing": [1, { "before": true, "after": true }],
+    "no-confusing-arrow": [0]
+  },
+  "globals": {
+    "API_URL": false
+  },
+  "extends": ["react-app", "plugin:jsx-a11y/recommended"]
+}
